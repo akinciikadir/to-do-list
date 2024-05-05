@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* İçeriği dikey olarak hizalama */
+    height: 100vh; /* Sayfanın tamamını kaplayacak şekilde yükseklik belirtme */
+    background-color: white;
+}
+
+.box{
+    background-color: brown;
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.text {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.input {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.input input{
+    width: 330px;
+    height: 20px;
+    background-color: rgb(211, 206, 206);
+}
+
+.input button{
+    height: 24px;
+    width: 40px;
+    margin-left: 5px;
+    cursor: pointer;
+   
+}
+
+.toDoList {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.toDoList p{
+    display: inline-block;
+    
+}
+
+.toDoList button{
+    margin-left: 10px;
+    display: inline-block;
+}
+
